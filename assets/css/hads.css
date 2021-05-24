@@ -1,0 +1,32 @@
+body , button , input{
+
+    font-size: 1.2rem;
+    direction: rtl;
+    padding: 0.4rem;
+}
+input{
+    width: 5rem;
+}
+h2{
+    text-align: center;
+    border-bottom: 2px solid green;
+    padding-bottom: 0.8rem;
+    color: green;
+}
+
+#chances{
+    font-weight: bold;
+    color: red;
+}
+.blue{
+    color: blue;
+}
+.red{
+    color: red;
+}
+.hidden{
+    display: none;
+}
+.green{
+    color:green;
+}

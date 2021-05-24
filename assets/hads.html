@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/hads.css">
+</head>
+<body>
+
+<div id="main">
+    <h2>عدد را حدس بزن</h2>
+
+    <div id="stage1">
+        <p>یک عدد را به عنوان حد بالا تعریف کنید.</p>
+        <label for="maximum"></label><input type="text" id="maximum" />
+         <button type="button" id="start">شروع کن</button>
+    </div>
+
+
+    <div id="stage2" class="hidden">
+        <p> شما  <span id="chances">0</span>بار فرصت حدس زدن دارید</p>
+        <label for="guess-number"></label><input type="text" id="guess-number" />
+        <button type="button" id="guess-Button">حدس بزن</button>
+        <p id="status">حدس شما:</p>
+    </div>
+</div>
+
+
+
+<script src="js/hadse.js"></script>
+</body>
+</html>
